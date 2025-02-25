@@ -5,7 +5,7 @@ import pandas as pd
 
 df = sns.load_dataset('titanic')
 
-st.title('Titanic deshboard')
+st.title('Titanic deshboard') 
 st.markdown("This is a simple dashboard for Titanic dataset where you can explore the dataset and visualize it ")
 st.dataframe(df) # Display the dataset
 
