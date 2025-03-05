@@ -49,7 +49,7 @@ st.plotly_chart(fig)
 fig = px.scatter(filtered_data, x='class', y='survived', title="Survival rate by Class")
 st.plotly_chart(fig)
 
-#bar plot
+#line plot
 fig = px.line(filtered_data, x='age', y='fare', title="Age & Fare")
 st.plotly_chart(fig)
 
